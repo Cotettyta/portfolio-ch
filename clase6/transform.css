@@ -1,0 +1,74 @@
+/* 
+	2D transform
+	translate()
+	rotate()
+	scale()
+	skewX()
+	skewY()
+	matrix() -> matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()):
+ */
+
+/*
+	3D transform
+	rotateX()
+	rotateY()
+	rotateZ()
+*/
+
+.caja{
+	width: 400px;
+	height: 400px;
+	margin: 20px;
+	border: 1px solid #000;
+	float: left;
+	background-color: steelblue;
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 100px;
+	color:#fff;
+}
+
+#caja1{
+	/*Translate*/
+	transform: translate(50px, 50px);
+
+
+}
+
+#caja2{
+	/*Rotate*/
+	transform: rotate(45deg);
+
+}
+
+#caja3{
+	/*Scale*/
+	transform: scale(0.6,0.2);/*esto va a medir la mitad de lo que se configuro o al reves sera el doble*/
+}
+
+#caja4{
+	/*skewX*/
+	transform: skewx(30deg);
+	transform: skewY(20deg);
+}
+
+#caja5{
+	/*skewY*/
+	transform: skew(20deg, 30deg);
+}
+
+#caja6{
+	/*skewY*/
+	transform: 
+}
+
+#caja7{
+	/* matrix */
+
+}
+
+#caja8{
+	/* 3D */
+	transform: rotateY(50deg), rotateX(50deg), rotateZ(24deg);
+}

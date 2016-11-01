@@ -1,0 +1,53 @@
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none; }
+  button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+.btn {
+  border: 1px;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding: 8px;
+  cursor: pointer; }
+
+.btn-default {
+  background-color: white;
+  border: 1px solid; }
+
+.btn-primary {
+  background-color: #337AB7; }
+
+.btn-success {
+  background-color: #5CB85C; }
+
+.btn-info {
+  background-color: #5BC0DE; }
+
+.btn-warning {
+  background-color: #F0AD4E; }
+
+.btn-danger {
+  background-color: #D9534F; }
+
+.btn-link {
+  background-color: white;
+  color: blue;
+  border: n 1px solid; }
+
+.btn__lg {
+  border: 1px solid; }
+
+/*# sourceMappingURL=principal.css.map */
