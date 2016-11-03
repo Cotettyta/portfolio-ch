@@ -1,0 +1,85 @@
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none; }
+  button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+.btn {
+  border: 1px;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding: 8px;
+  cursor: pointer; }
+
+.btn-default {
+  background-color: white;
+  border: 1px solid; }
+
+.btn-primary {
+  background-color: #337AB7; }
+
+.btn-success {
+  background-color: #5CB85C; }
+
+.btn-success:hover {
+  background-color: #0B610B; }
+
+.btn-info {
+  background-color: #5BC0DE; }
+
+.btn-info:hover {
+  background-color: #00BFFF; }
+
+.btn-warning {
+  background-color: #F0AD4E; }
+
+.btn-warning:hover {
+  background-color: #FFBF00; }
+
+.btn-danger {
+  background-color: #D9534F; }
+
+.btn-danger:hover {
+  background-color: #DF0101; }
+
+.btn-link {
+  background-color: white;
+  color: blue;
+  border: n 1px solid; }
+
+.btn-lg {
+  border: 1px solid;
+  font-size: 180%;
+  border: none; }
+
+.btn-lg:hover {
+  background-color: #0101DF; }
+
+.btn_lg {
+  font-size: 180%; }
+
+.btn-sm {
+  font-size: 80%; }
+
+.btn-sm:hover {
+  background-color: #0101DF; }
+
+.btn-xs {
+  font-size: 60%; }
+
+.btn-xs:hover {
+  background-color: #0101DF; }
+
+/*# sourceMappingURL=principal.css.map */

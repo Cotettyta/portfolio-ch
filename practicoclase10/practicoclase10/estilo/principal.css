@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+button {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none; }
+  button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+.btn {
+  height: 18px;
+  padding: 1px 5px;
+  font-size: 12px;
+  font-family: arial;
+  border-radius: 4px;
+  border: 1px solid;
+  vertical-align: middle; }
+
+.btn-default {
+  background-color: blue; }
+
+body {
+  background-color: #ccc; }
+
+/*# sourceMappingURL=principal.css.map */
