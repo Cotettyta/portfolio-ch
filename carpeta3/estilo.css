@@ -1,0 +1,19 @@
+body{
+	background-color: blue;
+}
+h1{
+	color: white;
+	font-size: 30px;
+	font-family: cursive;
+}
+b{
+	font-size: 20px;
+	font-family: bold;
+}
+p{
+	color: yellow;
+}
+h2{
+	font-family: arial;
+	font-size: 19px;
+}
